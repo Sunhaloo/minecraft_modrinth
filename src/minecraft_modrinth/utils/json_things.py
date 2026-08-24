@@ -18,7 +18,7 @@ def convert_dict_to_json(json_response: dict):
                 json_response[key] = json.loads(value)
 
         # if the current value could not be converted
-        except json.JSONDecodeError, TypeError:
+        except (json.JSONDecodeError, TypeError):
             # do basically nothing with that data
             pass
 

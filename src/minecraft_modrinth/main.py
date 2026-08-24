@@ -13,6 +13,7 @@ MODS_FILE = str(MODULE_DIR / "minecraft_mods.txt")
 API_URL: str = "https://api.modrinth.com/"
 WEBSITE_URL: str = "https://modrinth.com"
 STAGING_API_URL: str = "https://staging-api.modrinth.com/"
+MOD_URL: str = "https://api.modrinth.com/v2/project/sodium/version"
 
 
 # our main function for the whole 'minecraft_modrinth' project
@@ -21,4 +22,6 @@ def main() -> None:
     #
     # print(f"Mods in file: {mods}")
 
-    api_things.test_api_url(STAGING_API_URL)
+    # api_things.test_api_url(STAGING_API_URL)
+    # api_things.test_api_url(MOD_URL)
+    api_things.test_api_url(MOD_URL)
