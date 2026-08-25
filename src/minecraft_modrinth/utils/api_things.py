@@ -35,14 +35,15 @@ def get_cdn_url(
     params = {"loaders": f'["{modloader}"]', "game_versions": f'["{game_version}"]'}
 
     # build the full API URL so that we can try to get a response from
-    full_api_url = f"{API_URL}/project/{modname}"
+    full_api_url = f"{API_URL}/project/{modname}/version"
 
     # try to get an API response from the `full_api_url` URL
     api_response = requests.models.Response = requests.get(full_api_url, params=params)
 
     # if we do get something back from the API URL
     if api_response.ok:
-        print(api_response.json())
-
         # call the function to write the data to an appropriate file
         json_things.write_json_output(api_response.json(), api_response_file_name)
+
+        # call the function to display the CDN URL
+        json_things.read_json_get_cdn_url(api_response_file_name)
