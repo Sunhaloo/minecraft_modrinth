@@ -5,6 +5,9 @@ import requests
 
 # import the functions found inside the `json_things.py` file
 from . import json_things
+from pathlib import Path
+
+DOWNLOAD_LOCATION: str = str(Path("~/Downloads").expanduser())
 
 
 # test the API URL as per the documentation
@@ -27,6 +30,15 @@ def test_api_url(API_URL: str):
         print(f"\n--> Status Code: {api_response.status_code} <--\n")
 
 
+# try to download the JAR file from the URL by writing to a file
+def download_jar_file(cdn_url: str, filename: str, write_location: str):
+    cdn_api_response = requests.models.Response = requests.get(cdn_url)
+
+    if cdn_api_response.ok:
+        with open(f"{DOWNLOAD_LOCATION}/{filename}", "wb") as mod_file:
+            mod_file.write(cdn_api_response.content)
+
+
 # try to get the CDN URL from the API URL
 def get_cdn_url(
     API_URL: str, modname: str, modloader: str, game_version, api_response_file_name
@@ -46,4 +58,7 @@ def get_cdn_url(
         json_things.write_json_output(api_response.json(), api_response_file_name)
 
         # call the function to display the CDN URL
-        json_things.read_json_get_cdn_url(api_response_file_name)
+        fileurl, filename = json_things.read_json_get_cdn_url(api_response_file_name)
+
+        # call the function to download the JAR file in question
+        download_jar_file(fileurl, filename, DOWNLOAD_LOCATION)

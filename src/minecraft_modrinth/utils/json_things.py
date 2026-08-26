@@ -69,7 +69,9 @@ def read_json_get_cdn_url(file):
             # simply display the URL
             print(fileurl)
 
+            filename = actual_json_data[count]["files"][0]["filename"]
             print()
-            name = fileurl.split("/")[-1].replace("%", "-")
 
-            print(name)
+            print(filename)
+
+            return fileurl, filename
