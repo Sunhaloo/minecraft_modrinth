@@ -4,832 +4,72 @@
       "1.21.1"
     ],
     "loaders": [
-      "fabric"
+      "fabric",
+      "quilt"
     ],
-    "environment": "client_only",
-    "id": "hsWvcyFJ",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
+    "environment": "client_or_server_prefers_both",
+    "id": "N08Z8wog",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
     "featured": false,
-    "name": "1.10.5-1.21.1 - Fabric",
-    "version_number": "1.10.5",
-    "changelog": "## What's changed\r\n* Fix older Neoforge versions crashing on startup due to keybinds. Fix [#307](https://github.com/tr7zw/EntityCulling/issues/307)\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.10.4...1.10.5\n",
+    "name": "Lithium 0.15.4 for Fabric",
+    "version_number": "mc1.21.1-0.15.4-fabric",
+    "changelog": "Lithium 0.15.4 for Minecraft 1.21 and 1.21.1 backports a few bug fixes.\n\nMake sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium/blob/mc1.21.1-0.15.4/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Fixes\n- Fix supporting block movement shortcut not offsetting VoxelShape \n- Fix double inventory related inventory invalidation issues\n- Avoid crashing when modded levels with broken registries are created\n- Fix comparator updates missing for furnaces and brewing stands",
     "changelog_url": null,
-    "date_published": "2026-06-20T14:41:49.364596Z",
-    "downloads": 1621909,
+    "date_published": "2026-06-27T17:11:51.297165Z",
+    "downloads": 1298810,
     "version_type": "release",
     "status": "listed",
     "requested_status": null,
     "files": [
       {
-        "id": "FLTs6tnQ",
+        "id": "5xthAQGD",
         "hashes": {
-          "sha1": "7e8c9c44049e6575e75d1fe38d6006306b8d5623",
-          "sha512": "5072ddbfc8dbbef450cd80b1e4824a9bd9a5e084ac285eea15f92baef47ab2bf4c37991ec68b56cee47c8b29905ca699f79676ae1c6c964cc92632d2761dd21a"
+          "sha1": "7d82a004403b7780d4443d8e40361a55cfd0ae63",
+          "sha512": "182064b00e6315e2255b857eaab8eb759e6b042ebd4cc8b855ff0d93f875a5a7188fac49f878d7b29d4ef7e6b6341190ad7f6f6f39f4a6d2c62003468b08e4c6"
         },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/hsWvcyFJ/entityculling-fabric-1.10.5-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.10.5-mc1.21.1.jar",
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.15.4+mc1.21.1.jar",
         "primary": true,
-        "size": 1595131,
+        "size": 797454,
         "file_type": null
       }
     ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
+    "dependencies": []
   },
   {
     "game_versions": [
       "1.21.1"
     ],
     "loaders": [
-      "fabric"
+      "fabric",
+      "quilt"
     ],
-    "environment": "client_only",
-    "id": "KIGLGgx3",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
+    "environment": "client_or_server_prefers_both",
+    "id": "XQJtuOTA",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
     "featured": false,
-    "name": "1.10.4-1.21.1 - Fabric",
-    "version_number": "1.10.4",
-    "changelog": "## What's changed\r\n* Fix 26.1.x NeoForge key binds\r\n* Fix incomplete CurseForge deploy\r\n* Cinematic Cataclysm compatibility & whitelists alphabetical order by @Redls07 in https://github.com/tr7zw/EntityCulling/pull/306\r\n* Force refresh the lists in the config, because for some people with older installs it has become really outdated\r\n\r\n## Known issues\r\n* 26.2.x NeoForge will be released at a later point, it is so broken right now, that I can't even boot it\r\n\r\n## New Contributors\r\n* @Redls07 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/306\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.10.3...1.10.4\n",
+    "name": "Lithium 0.15.3 for Fabric",
+    "version_number": "mc1.21.1-0.15.3-fabric",
+    "changelog": "Lithium 0.15.3 for Minecraft 1.21 and 1.21.1 backports an optimization and a bug fix.\n\nMake sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium/blob/mc1.21.1-0.15.3/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Additions\n- Add missing palette crash recovery attempt\n- Use cached false values for fluid hole search\n\n## Fixes\n- Fix negative indices caused by byte to int cast (crash with modded fluids https://github.com/CaffeineMC/lithium/issues/719)",
     "changelog_url": null,
-    "date_published": "2026-06-18T18:39:44.002485Z",
-    "downloads": 29156,
+    "date_published": "2026-03-10T22:02:18.628608Z",
+    "downloads": 2136277,
     "version_type": "release",
     "status": "listed",
     "requested_status": null,
     "files": [
       {
-        "id": "x7MgHlWY",
+        "id": "SulCihDd",
         "hashes": {
-          "sha512": "4627de490246f63f0eda947fe774dfc6223be92f1802e7f50d284aec6d34c9c1aa059a451bbbed0754b17cd494fd057d26d59e880bb7050c686c9f25a0baa28d",
-          "sha1": "fc2345c913881ed080d3071ad01db271fa3af944"
+          "sha512": "8c576d519121b0c2521101d2209eccd85d560b097fcb847aa54c51cd0d3f3947676f01c8d99913f514487c8e0972a1cf5f3da0c9ef0ec9bacdf2baeb4eb7d1a7",
+          "sha1": "c4a1c2b6de9915ac77ae46a005509d4acf09535d"
         },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/KIGLGgx3/entityculling-fabric-1.10.4-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.10.4-mc1.21.1.jar",
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/XQJtuOTA/lithium-fabric-0.15.3%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.15.3+mc1.21.1.jar",
         "primary": true,
-        "size": 1595131,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "WQdwjoRP",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.10.3-1.21.1 - Fabric",
-    "version_number": "1.10.3",
-    "changelog": "## What's Changed\r\n* Add 26.2.x Fabric\r\n* Add 26.1.x NeoForge \r\n* bug: Update default config to not break Create Big Cannons entities by @rbasamoyai in https://github.com/tr7zw/EntityCulling/pull/304\r\n* Update zh-cn by @NumberSir in https://github.com/tr7zw/EntityCulling/pull/302\r\n* Once again reworked build scripts, please report any issues caused by this update \r\n\r\n## Known issues\r\n* 26.1.x NeoForge doesn't show keybinds\r\n* 26.2.x NeoForge will be released at a later point \r\n\r\n## New Contributors\r\n* @rbasamoyai made their first contribution in https://github.com/tr7zw/EntityCulling/pull/304\r\n* @NumberSir made their first contribution in https://github.com/tr7zw/EntityCulling/pull/302\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.10.2...1.10.3\n",
-    "changelog_url": null,
-    "date_published": "2026-06-16T17:35:19.354312Z",
-    "downloads": 46862,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "MeCvZ0iD",
-        "hashes": {
-          "sha1": "a6cb66a5d47766b0f3bac7cdb477b6de5d261c80",
-          "sha512": "fd3d3191f82da7a7925b2aad7ac29576bcc920b3b5fa5bc22640f5b2ba3559faa62c9f04f302b5bec96bf1df432d264c6c258d9e19795b57522ffae9aa7971f6"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/WQdwjoRP/entityculling-fabric-1.10.3-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.10.3-mc1.21.1.jar",
-        "primary": true,
-        "size": 1594188,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "FX8eJJiJ",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.10.2-1.21.1 - Fabric",
-    "version_number": "1.10.2",
-    "changelog": "## What's Changed\r\n* Add new option to make leaves solid for culling (use with ``See-Through Leaves`` on Off or when using a bushy leaves resource pack)\r\n* Added support for the Lunar Client\r\n* Update pl_pl.json by @Fhilips613 in https://github.com/tr7zw/EntityCulling/pull/297\r\n* Update fr_fr.json v0.0.2 by @XtraBe in https://github.com/tr7zw/EntityCulling/pull/293\r\n\r\n## New Contributors\r\n* @Fhilips613 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/297\r\n* @XtraBe made their first contribution in https://github.com/tr7zw/EntityCulling/pull/293\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.10.1...1.10.2\n",
-    "changelog_url": null,
-    "date_published": "2026-05-07T17:02:05.800132Z",
-    "downloads": 643195,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "s2hVitKR",
-        "hashes": {
-          "sha512": "79800c1dd21835c4f2ec09afda271eb7f84071e14bb0aaf0972beb9181fd4911cc98cbd9549888938fbce79e28bfc8bd0b24ef350dda14303d9b5bc5597d82df",
-          "sha1": "7d78734241d291d2abea47ffacb4ea377cf83982"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/FX8eJJiJ/entityculling-fabric-1.10.2-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.10.2-mc1.21.1.jar",
-        "primary": true,
-        "size": 1592870,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "umue6GAJ",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.10.1-1.21.1 - Fabric",
-    "version_number": "1.10.1",
-    "changelog": "Sorry for the delay.\r\n\r\n## What's Changed\r\n* Set 26.1.x as compatible (like 26.1.1/26.1.2, in the potential future 26.1.3)\r\n* Added some new debug tools, but its WIP\r\n* Update libs to fix stuff like broken controls\r\n* Set client-side/java version flags on Curseforge\r\n* Update uk_ua.json by @StarmanMine142 in https://github.com/tr7zw/EntityCulling/pull/287\r\n\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.10.0...1.10.1\n",
-    "changelog_url": null,
-    "date_published": "2026-04-09T16:06:27.359413Z",
-    "downloads": 373293,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "hfU0jw8E",
-        "hashes": {
-          "sha1": "6f7234ec1d50f563def59ab05ab44f62c119016b",
-          "sha512": "57c2db4458d64f47f28e0b753745ff0c62441372432f55454f4a626c3425b264663e0884edbb52e1f6b2545411425056707bd77cfeeac370b9a984f28c38c8c4"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/umue6GAJ/entityculling-fabric-1.10.1-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.10.1-mc1.21.1.jar",
-        "primary": true,
-        "size": 1574328,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "zzguHbcL",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.10.0-1.21.1 - Fabric",
-    "version_number": "1.10.0",
-    "changelog": "## What's Changed\r\n* Add Fabric 26.1 support\r\n* Large build script and lib updates due to 26.1, please report any issues. Enter ``godmode`` into the recipe book for debugging\r\n* Add German translation by @GulutGames in https://github.com/tr7zw/EntityCulling/pull/277\r\n* lang: Update zh_cn.json by @Moralts in https://github.com/tr7zw/EntityCulling/pull/284\r\n\r\n## New Contributors\r\n* @GulutGames made their first contribution in https://github.com/tr7zw/EntityCulling/pull/277\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.9.5...1.10.0\n",
-    "changelog_url": null,
-    "date_published": "2026-03-25T19:23:09.759296Z",
-    "downloads": 1103724,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "FOp0SGgi",
-        "hashes": {
-          "sha512": "edba92c3ff773e1bc069090c9ddc5f34cca978f9dd83e72d6ff3cac9f7b6cee8d9f3158003a540327d0e1d842b40968e17894fc6b03546a61c4501162a56050e",
-          "sha1": "aeeb915fb8d464af917737fbf466ea7f815106a1"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/zzguHbcL/entityculling-fabric-1.10.0-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.10.0-mc1.21.1.jar",
-        "primary": true,
-        "size": 1569123,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "xcyXBGgI",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.9.5-1.21.1 - Fabric",
-    "version_number": "1.9.5",
-    "changelog": "## What's Changed\r\n* Fix nametag inconsistency causing fps loss in later versions\r\n* Added option to force a culling box on unconfigured display entities. This will increase fps on servers/maps that did not configure their displays, but can cause visual issues for really big displays (Default is off)\r\n* Add new translations for block entity culling by @Texaliuz in https://github.com/tr7zw/EntityCulling/pull/260\r\n\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.9.4...1.9.5\n",
-    "changelog_url": null,
-    "date_published": "2025-12-30T15:26:14.036279Z",
-    "downloads": 6345788,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "N1bewuJO",
-        "hashes": {
-          "sha1": "dffd306c5aeba040595e2f02badf441db638624b",
-          "sha512": "2a980756192abb8f7841e61017d77b16824752d349348976ba890779a8f556b4a0edb7b392bc5a29b29975342b6b18d8cfde888ae670532ce2418e5943f2009c"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/xcyXBGgI/entityculling-fabric-1.9.5-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.9.5-mc1.21.1.jar",
-        "primary": true,
-        "size": 1560675,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "mJOIGEOM",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.9.4-1.21.1 - Fabric",
-    "version_number": "1.9.4",
-    "changelog": "## What's changed\r\n* Add 1.21.11 Fabric/NeoForge support (Forge will be released later once it's out)\r\n* Switched from preprocessor to Stonecutter for building (Please report new issues that show up)\r\n* If you are reading changelogs, you might care about the mod. There is a new options menu on the lib \"TRender\" (hidden on Fabrics mod menu under \"tr7zw Library Modules\" and potentially hidden by the setting at the top \"Libraries: Shown/Hidden\"). It lets you change the UI Style of the config screens, and enable automatic stack trace reporting for my mods. Consider turning this on to help detect and fix issues faster. (No personal identifiable information is collected, just the crash report, loaded mods and versions)\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.9.3...1.9.4\n",
-    "changelog_url": null,
-    "date_published": "2025-12-09T21:10:09.152463Z",
-    "downloads": 1113581,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "b2pJNmEg",
-        "hashes": {
-          "sha1": "5470b8ca2d5ae760febc31906fb0695122975b0f",
-          "sha512": "328a1a23e39fde894ea47c1011b7b672daf20d9180e1c8ad84ecf4f73ebfc7b45fbdea1e23edf000ca0adab75a9a5a7c96d5cc0ce8b61cd209ca544c3c2bd9a4"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/mJOIGEOM/entityculling-fabric-1.9.4-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.9.4-mc1.21.1.jar",
-        "primary": true,
-        "size": 1559420,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "K4vXrboK",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.9.3-1.21.1 - Fabric",
-    "version_number": "1.9.3",
-    "changelog": "## What's Changed\r\n* Fix rare race condition crash with Mekanism+Sodium in <=1.21.1 #225 \r\n* Fix marker armor stands having a too small culling box #252 \r\n* Add the \"voidscape:corrupted_pawn\" to the default tick whitelist config\r\n* Fixed log lines about ``Couldn't load ... pack metadata`` in 1.21.9+\r\n* Update uk_ua.json by @StarmanMine142 in https://github.com/tr7zw/EntityCulling/pull/254\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.9.2...1.9.3\n",
-    "changelog_url": null,
-    "date_published": "2025-10-30T19:06:00.015816Z",
-    "downloads": 2287154,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "DjynPONb",
-        "hashes": {
-          "sha512": "f06043d1130598e504659babe31c16e8912808840e1380aed5ca946ca9ea4effc992ad4f545b6979d6e3a7f39d27b9d4ac0febf02f91c4e0a69d253533f583bc",
-          "sha1": "f2b94ee52789bb0c50bc28030269a232e354a176"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/K4vXrboK/entityculling-fabric-1.9.3-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.9.3-mc1.21.1.jar",
-        "primary": true,
-        "size": 470161,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "er1ZDoWB",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.9.2-1.21.1 - Fabric",
-    "version_number": "1.9.2",
-    "changelog": "## What's Changed\r\n* use interaction entity when possible and fix below name display by @viciscat in https://github.com/tr7zw/EntityCulling/pull/250\r\n* Fix laggy culled name tag movement in 1.21.9+\r\n* Fix invisible armor stands not being culled when they should be. Increases performance in places like the Hypixel Housing lobby\r\n\r\n## New Contributors\r\n* @viciscat made their first contribution in https://github.com/tr7zw/EntityCulling/pull/250\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.9.1...1.9.2\n",
-    "changelog_url": null,
-    "date_published": "2025-10-19T13:25:43.856466Z",
-    "downloads": 127414,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "IF37HqhO",
-        "hashes": {
-          "sha1": "8c5d3510c6846b379a18a9934d7d08510e63539a",
-          "sha512": "aa9967cbcd71baeb46d2b752b13ce1f23141460b04a702134f909c8f361107302589032f9323a3ea253882b65d2e963454f69972b41b5515706fa5d7f49b0571"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/er1ZDoWB/entityculling-fabric-1.9.2-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.9.2-mc1.21.1.jar",
-        "primary": true,
-        "size": 469696,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "B7wGMYbi",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.9.1-1.21.1 - Fabric",
-    "version_number": "1.9.1",
-    "changelog": "## What's Changed\r\n* Don't render anything for culled entities in 1.21.9+. Fix https://github.com/tr7zw/EntityCulling/issues/246 , should improve fps\r\n* Reworked nametag logic for 1.21.9+. Fix https://github.com/tr7zw/EntityCulling/issues/243\r\n* Fixed that some entities might get culled that shouldn't be culled\r\n* Banners are 2 tall. Fix https://github.com/tr7zw/EntityCulling/issues/248\r\n* Update pt_br.json by @seriousfreezing in https://github.com/tr7zw/EntityCulling/pull/245\r\n* Add Traditional Chinese translation by @notlin4 in https://github.com/tr7zw/EntityCulling/pull/244\r\n\r\n## New Contributors\r\n* @notlin4 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/244\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.9.0...1.9.1\n",
-    "changelog_url": null,
-    "date_published": "2025-10-15T18:08:43.742933Z",
-    "downloads": 28785,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "5QgmPqFi",
-        "hashes": {
-          "sha1": "a8789be781ada8313ca6eaa264989f5a6a4f293c",
-          "sha512": "7ab6c67042bb2195e6a947d9c3d6ae159f6c12da743c509ae4439c4dca79b568dc72cd514da83b8c4b80101fa29c1e79b7830488375b131679d56d09ddc0e62b"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/B7wGMYbi/entityculling-fabric-1.9.1-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.9.1-mc1.21.1.jar",
-        "primary": true,
-        "size": 469902,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "PjgyUEfm",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.9.0-1.21.1 - Fabric",
-    "version_number": "1.9.0",
-    "changelog": "## What's Changed\r\n* Add 1.21.10 support (also marked for 1.21.9, please update to 1.21.10, 1.21.9 is not supported)\r\n* Add block entity frustum culling mainly for 1.21.9+ Fabric\r\n* Update 1.21.6 -> 1.21.8 and 1.21 -> 1.21.1. This means the following versions are now unsupported: 1.21(.0), 1.21.6, 1.21.7\r\n* Update uk_ua.json by @StarmanMine142 in https://github.com/tr7zw/EntityCulling/pull/234\r\n* Add fa_ir by @PawyVile in https://github.com/tr7zw/EntityCulling/pull/239\r\n* Fix grammatical issues in the ReadMe by @mrjasonn in https://github.com/tr7zw/EntityCulling/pull/233\r\n\r\n## New Contributors\r\n* @StarmanMine142 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/234\r\n* @PawyVile made their first contribution in https://github.com/tr7zw/EntityCulling/pull/239\r\n* @mrjasonn made their first contribution in https://github.com/tr7zw/EntityCulling/pull/233\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.8.2...1.9.0\n",
-    "changelog_url": null,
-    "date_published": "2025-10-07T19:50:38.735355Z",
-    "downloads": 231144,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "hvhFti6Y",
-        "hashes": {
-          "sha512": "02a1275c5aaa9a3baed64c183ffc8ee1410d1a6dd66c9bcccbc822c8186d38649cb43059ef1750715bdd597ea4793d60d9559b02e1fa48429976351dc0b1eaca",
-          "sha1": "d05cfa8057fa6da82c9d94ffcd77e6578a87b3be"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/PjgyUEfm/entityculling-fabric-1.9.0-mc1.21.1.jar",
-        "filename": "entityculling-fabric-1.9.0-mc1.21.1.jar",
-        "primary": true,
-        "size": 468324,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21",
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "ivkfruZP",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.8.2-1.21 - Fabric",
-    "version_number": "1.8.2",
-    "changelog": "## What's Changed\r\n* Add 1.21.8 as compatible version for the 1.21.6 build\r\n* Add lang hu_hu by @bayi in https://github.com/tr7zw/EntityCulling/pull/224\r\n\r\n## New Contributors\r\n* @bayi made their first contribution in https://github.com/tr7zw/EntityCulling/pull/224\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.8.1...1.8.2\n",
-    "changelog_url": null,
-    "date_published": "2025-07-17T19:31:36.509388Z",
-    "downloads": 1694361,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "hj8fvYyk",
-        "hashes": {
-          "sha1": "9b21d48e4c95ebf94aac46b5fcd6a4d86fd7cfc7",
-          "sha512": "5b53406eccf6518f6bf0f33c9cafa47745f9d80acf92e97163d1feb107c63634dbf5cd86cb9c1ae55fca865dbd94d3ccb4c2575c4ad934620492d2d550efbe9f"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/ivkfruZP/entityculling-fabric-1.8.2-mc1.21.jar",
-        "filename": "entityculling-fabric-1.8.2-mc1.21.jar",
-        "primary": true,
-        "size": 469193,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21",
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "84LNy1pR",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.8.1-1.21 - Fabric",
-    "version_number": "1.8.1",
-    "changelog": "## What's Changed\r\n* Add 1.21.7 as supported\r\n* Fix crash with outdated Forge versions\r\n* Defensive copy entity lists to hopefully reduce issues with Sodium and other mods. Please report if this causes any other issues #220\r\n* F3 times are now shown with sub ms precision, added value for main-thread timings\r\n* Update `ru_ru.json` by @mpustovoi in https://github.com/tr7zw/EntityCulling/pull/217\r\n* Update zh_cn.json by @Moralts in https://github.com/tr7zw/EntityCulling/pull/215\r\n* Indonesian Translation by @re-vliz in https://github.com/tr7zw/EntityCulling/pull/216\r\n* Update es_ar.json by @Texaliuz in https://github.com/tr7zw/EntityCulling/pull/214\r\n* Update Vietnamese by @godkyo98 in https://github.com/tr7zw/EntityCulling/pull/212\r\n\r\n## New Contributors\r\n* @mpustovoi made their first contribution in https://github.com/tr7zw/EntityCulling/pull/217\r\n* @Moralts made their first contribution in https://github.com/tr7zw/EntityCulling/pull/215\r\n* @re-vliz made their first contribution in https://github.com/tr7zw/EntityCulling/pull/216\r\n* @godkyo98 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/212\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.8.0...1.8.1\n",
-    "changelog_url": null,
-    "date_published": "2025-07-05T23:08:34.402218Z",
-    "downloads": 242179,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "bqgzqkpI",
-        "hashes": {
-          "sha512": "53158ad29138643ffa14f7de8664761875d31bc803bcd4aa5c17ed56b9640149f6834283737120aa9c5dcddb1af8512b604e5577a082b5bdcfbb3224697fa4b5",
-          "sha1": "5dae3efc671b8a616aadbae1e35bd63a9458134f"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/84LNy1pR/entityculling-fabric-1.8.1-mc1.21.jar",
-        "filename": "entityculling-fabric-1.8.1-mc1.21.jar",
-        "primary": true,
-        "size": 468222,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21",
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "wZSIbKbB",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.8.0-1.21 - Fabric",
-    "version_number": "1.8.0",
-    "changelog": "Pretty big update with many optimizations and fixes, perfect to celebrate recently hit download milestones and the new Partnership with Essential.\r\n\r\n## What's Changed\r\n* Update to 1.21.6\r\n* Add config screen to modify the tick culling whitelist/entity whitelist/block-entity whitelist in game\r\n* Optimization of the culling thread logic and rendered block entity count\r\n* Fix tick culling whitelist unintendedly merging into the entity whitelist\r\n* Fix warning about a mixin conflict with Sodium\r\n* Add display entities to the tick whitelist to let them move/transform while offscreen\r\n* Translation into Argentine Spanish (es_ar) for EntityCulling by @Texaliuz in https://github.com/tr7zw/EntityCulling/pull/199\r\n* Add Polish translation (`pl_pl.json`) by @lumiscosity in https://github.com/tr7zw/EntityCulling/pull/203\r\n* Add quark soul bead to default whitelist by @redchess64 in https://github.com/tr7zw/EntityCulling/pull/205\r\n* Update pt_br.json by @seriousfreezing in https://github.com/tr7zw/EntityCulling/pull/209\r\n* Update pt_br.json by @seriousfreezing in https://github.com/tr7zw/EntityCulling/pull/210\r\n\r\n## New Contributors\r\n* @Texaliuz made their first contribution in https://github.com/tr7zw/EntityCulling/pull/199\r\n* @lumiscosity made their first contribution in https://github.com/tr7zw/EntityCulling/pull/203\r\n* @redchess64 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/205\r\n* @seriousfreezing made their first contribution in https://github.com/tr7zw/EntityCulling/pull/209\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.7.4...1.8.0\n",
-    "changelog_url": null,
-    "date_published": "2025-06-20T15:45:29.565161Z",
-    "downloads": 216735,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "Z8FsOYsG",
-        "hashes": {
-          "sha1": "9ba701abb01eeb144ceb4f138ccd6c9f4d9db73f",
-          "sha512": "e6e1e7f75016b8cc0c7288f42e4eccecb6a70f51e09e48a48f1b2f28269a3c6eb6db295f9e9b0b8a09c80998e7cc8ca4ca73b37d19005794e24fe769fc75167e"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/wZSIbKbB/entityculling-fabric-1.8.0-mc1.21.jar",
-        "filename": "entityculling-fabric-1.8.0-mc1.21.jar",
-        "primary": true,
-        "size": 463536,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21",
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "eKX1ek3L",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.7.4-1.21 - Fabric",
-    "version_number": "1.7.4",
-    "changelog": "## Changes\r\n- Added 1.21.5 support\r\n- Removed 1.19.3 support\r\n- Fix Debug hitboxes not working correctly/being available in Forge/NeoForge 1.21.4+\r\n- Updated tooling, expect a bigger update soon\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.7.3...1.7.4\n",
-    "changelog_url": null,
-    "date_published": "2025-03-27T15:50:46.927033Z",
-    "downloads": 2815777,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "r32qpOCd",
-        "hashes": {
-          "sha1": "c080d794ff1e58e09a4d742a9c47d95950c67e90",
-          "sha512": "9deacc4695d0be204600b2f0bfc9ecaac6c639f5d0823108ac927d6a9d1eaa95af9ee41a750b8d3e478df629ea0c4105014df27763384af20f706ba59d83c11e"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/eKX1ek3L/entityculling-fabric-1.7.4-mc1.21.jar",
-        "filename": "entityculling-fabric-1.7.4-mc1.21.jar",
-        "primary": true,
-        "size": 69301,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21",
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "ssEdOyua",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": true,
-    "name": "1.7.3-1.21(.1) - Fabric",
-    "version_number": "1.7.3",
-    "changelog": "## What's Changed\r\n* Fix that moving boats without passengers get incorrectly culled by desyncing clientside (#189)\r\n* Add debug hotkey for 1.21.4+ to visualize the culling boxes of entities\r\n* Create zh_cn.json and add Chinese MOD instructions. by @Q2297045667 in https://github.com/tr7zw/EntityCulling/pull/191\r\n\r\n## New Contributors\r\n* @Q2297045667 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/191\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.7.2...1.7.3",
-    "changelog_url": null,
-    "date_published": "2025-02-25T20:17:21.660183Z",
-    "downloads": 1973568,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "LG7hTyqO",
-        "hashes": {
-          "sha1": "b2e066d4d0ee80d000fc628c8138ae1ca1c3cc98",
-          "sha512": "924677750f167722f767f69b644b1492705d2fb0ac02abbfe7dd39cf9718d88f7de3a0a764b602e224e1199c6e66b475128cbf35b2e78700fff2902136efb65c"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/ssEdOyua/entityculling-fabric-1.7.3-mc1.21.jar",
-        "filename": "entityculling-fabric-1.7.3-mc1.21.jar",
-        "primary": true,
-        "size": 71253,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21",
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "MQuJQtw8",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.7.2-1.21(.1) - Fabric",
-    "version_number": "1.7.2",
-    "changelog": "## What's Changed\r\n* Add 1.21.4 support\r\n* Whitelist avm_staff:campfire_flame entity by @opekope2 in https://github.com/tr7zw/EntityCulling/pull/180\r\n* Add Malay and Malay (Jawi) translations by @NuruddinPlays in https://github.com/tr7zw/EntityCulling/pull/182\r\n\r\n## New Contributors\r\n* @opekope2 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/180\r\n* @NuruddinPlays made their first contribution in https://github.com/tr7zw/EntityCulling/pull/182\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.7.1...1.7.2",
-    "changelog_url": null,
-    "date_published": "2024-12-06T18:58:34.414356Z",
-    "downloads": 2160829,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "9luaRzTr",
-        "hashes": {
-          "sha1": "9e2a99e7dd4772492a62acc62174baa56e581af8",
-          "sha512": "b92426d38cd1e21e5064cb773a40d4c02130a80e16266dd77711965b30d3ffeaa5d73f8e989214e2a160a2181de6d71ed2e7723b387f3d6b10ca746bea0638d9"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/MQuJQtw8/entityculling-fabric-1.7.2-mc1.21.jar",
-        "filename": "entityculling-fabric-1.7.2-mc1.21.jar",
-        "primary": true,
-        "size": 67575,
-        "file_type": null
-      }
-    ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
-  },
-  {
-    "game_versions": [
-      "1.21",
-      "1.21.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "environment": "client_only",
-    "id": "hD1f5amG",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
-    "featured": false,
-    "name": "1.7.1-1.21(.1) - Fabric",
-    "version_number": "1.7.1",
-    "changelog": "## What's Changed\n* Add 1.21.3 support (no 1.21.2)\n* Correctly skip invisible armor stands instead of marker\n* Fix drg_flares:drg_flare whitelist\n* Whitelist Alex's Caves Gum Worm entity in Config by @AlexModGuy in https://github.com/tr7zw/EntityCulling/pull/174\n* Create es_es.json by @C4BR3R4 in https://github.com/tr7zw/EntityCulling/pull/171\n* Added translation key for keybind category (fix issue #172) by @Thijzert123 in https://github.com/tr7zw/EntityCulling/pull/175\n\n## New Contributors\n* @AlexModGuy made their first contribution in https://github.com/tr7zw/EntityCulling/pull/174\n* @C4BR3R4 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/171\n* @Thijzert123 made their first contribution in https://github.com/tr7zw/EntityCulling/pull/175\n\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.7.0...1.7.1",
-    "changelog_url": null,
-    "date_published": "2024-11-01T21:18:32.194307Z",
-    "downloads": 658137,
-    "version_type": "release",
-    "status": "listed",
-    "requested_status": null,
-    "files": [
-      {
-        "id": "FpYCLwox",
-        "hashes": {
-          "sha512": "0440f0c0c87f2de29e0b6583d9fc6d347db30eb5f4e8fedae52ea2b38261cd2a06b5644aeffdce1680f21d7c5370bd00ddceeb776db1d63f4011fc41a7bac865",
-          "sha1": "b43d12dccfc423f6ffa61e7aea261166793155ab"
-        },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/hD1f5amG/entityculling-fabric-1.7.1-mc1.21.jar",
-        "filename": "entityculling-fabric-1.7.1-mc1.21.jar",
-        "primary": true,
-        "size": 67033,
+        "size": 797398,
         "file_type": null
       }
     ],
@@ -841,88 +81,455 @@
       "1.21.1"
     ],
     "loaders": [
-      "fabric"
+      "fabric",
+      "quilt"
     ],
-    "environment": "client_only",
-    "id": "kPbJu8eF",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
+    "environment": "client_or_server_prefers_both",
+    "id": "Yu6L8EnD",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
     "featured": false,
-    "name": "1.7.0-1.21(.1) - Fabric",
-    "version_number": "1.7.0",
-    "changelog": "## Changes\r\n* Fix a rare bug that gets the culling thread stuck for some time, causing visual issues. Huge thanks to @pietro-lopes for finding the root cause\r\n* 1.19.4 and 1.19.3 now also use the latest codebase with all features/fixes\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.6.7...1.7.0",
+    "name": "Lithium 0.15.2 for Fabric",
+    "version_number": "mc1.21.1-0.15.2-fabric",
+    "changelog": "Lithium 0.15.2 for Minecraft 1.21 and 1.21.1 backports an optimization and bug fixes.\n\nMake sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium/blob/mc1.21.1-0.15.2/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Additions\n- Optimize non POI block searches (Thanks to jcw780)\n\n## Fixes\n- Fix incorrect hopper sleeping with double chests halves read by comparators",
     "changelog_url": null,
-    "date_published": "2024-08-28T18:56:01.548840Z",
-    "downloads": 1856255,
+    "date_published": "2026-02-05T21:34:09.727830Z",
+    "downloads": 1531602,
     "version_type": "release",
     "status": "listed",
     "requested_status": null,
     "files": [
       {
-        "id": "kJnv22Wh",
+        "id": "QCRzBHhj",
         "hashes": {
-          "sha512": "6a43e3309add2ba9944df9dee18812ca5f0f2fad9dd69333b55f7c9ac4f70f1f8b661bc2ce63214d5ba089f46bed6b76e58f1926e83a8e6ee474a272766232aa",
-          "sha1": "ef4acec15876eafba8ce1618d2c2a6b3de27e58f"
+          "sha1": "72d9c51e9ece62018f290bfbbf7bbb87190cc7ed",
+          "sha512": "0422a6694c997aa91ce01fa038bd5d46d7d8d64f0a5abae7420e5a2a10fdcd1e6cf9033f1d95b402a9ba0f07c8c7cf5cfcd3e50ae7c4fe2ac82f39a58583012e"
         },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/kPbJu8eF/entityculling-fabric-1.7.0-mc1.21.jar",
-        "filename": "entityculling-fabric-1.7.0-mc1.21.jar",
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/Yu6L8EnD/lithium-fabric-0.15.2%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.15.2+mc1.21.1.jar",
         "primary": true,
-        "size": 65591,
+        "size": 797184,
         "file_type": null
       }
     ],
-    "dependencies": [
-      {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
-      }
-    ]
+    "dependencies": []
   },
   {
     "game_versions": [
-      "1.21",
       "1.21.1"
     ],
     "loaders": [
-      "fabric"
+      "fabric",
+      "quilt"
     ],
-    "environment": "client_only",
-    "id": "uh3DtMnM",
-    "project_id": "NNAgCjsB",
-    "author_id": "Qnt13hO8",
+    "environment": "client_or_server_prefers_both",
+    "id": "E5eJVp4O",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
     "featured": false,
-    "name": "1.6.7-1.21(.1) - Fabric",
-    "version_number": "1.6.7",
-    "changelog": "## Changes\r\n* Fix 1.21.1 support\r\n\r\n**Full Changelog**: https://github.com/tr7zw/EntityCulling/compare/1.6.6...1.6.7",
+    "name": "Lithium 0.15.1 for Fabric",
+    "version_number": "mc1.21.1-0.15.1-fabric",
+    "changelog": "Lithium 0.15.1 for Minecraft 1.21.1 backports several bug fixes, including better compatibility with neoforge.\n\nMake sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium/blob/mc1.21.1-0.15.1/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Fixes\n- Fix missing initialization of block counting in empty sections\n- Mod compatibility between raycast optimization and ponder\n- Fix NeoForge chunk load tricks compatibility\n- Fix double inventory invalidation in hopper optimization\n- Hoppers unsubscribe from block entities and double inventories when invalidated",
     "changelog_url": null,
-    "date_published": "2024-08-20T14:23:42.698353Z",
-    "downloads": 481590,
+    "date_published": "2025-11-21T17:10:36.416852Z",
+    "downloads": 5103449,
     "version_type": "release",
     "status": "listed",
     "requested_status": null,
     "files": [
       {
-        "id": "Lw6WdbMV",
+        "id": "jf4cH4Lm",
         "hashes": {
-          "sha1": "a99034c625e63a9e1e5e2768893e57296d91c0e5",
-          "sha512": "aa958f6bbdc4c99e9d1ddcc951c56d105edca8ae9454eb7b14fb38586e475776da7adebbcaf34f59b2ea175b9efaa61efcbe748b7e7d84ffa79896c103630e79"
+          "sha1": "6038cf136da413753345bf9d48e5798241439894",
+          "sha512": "bb0d13b429c3f790b3f8d42312a104eb7f33dadc0b1eb3b037255af2d1b17a3c51db7d9a4cf8552f9410922f03ab030e124cb5c0661d2442e63bef8a1d133136"
         },
-        "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/uh3DtMnM/entityculling-fabric-1.6.7-mc1.21.jar",
-        "filename": "entityculling-fabric-1.6.7-mc1.21.jar",
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/E5eJVp4O/lithium-fabric-0.15.1%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.15.1+mc1.21.1.jar",
         "primary": true,
-        "size": 65568,
+        "size": 772848,
         "file_type": null
       }
     ],
-    "dependencies": [
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "MM5BBBOK",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.15.0 for Fabric",
+    "version_number": "mc1.21.1-0.15.0-fabric",
+    "changelog": "Lithium 0.15.0 for Minecraft 1.21.1 includes new optimizations and several bug fixes, including better compatibility with neoforge inventories.\n\nMake sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium/blob/mc1.21.1-0.15.0/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Additions\n- explosion entity raycast optimizations (Thanks to RacoonDog)\n- Sleeping crafter block entity\n\n## Fixes\n- Fix crash with Create Pondering when entities are pushed by fluids\n- Fix crash when placing a block at build limit in the end and attempting to spawn a dragon\n- Fix hoppers sleeping even though interaction with neoforge API block inventories is possible\n- Fix sleeping hoppers woken up by moving item entities even if blocked with a full block\n- Fix broken state of ChunkAwareBlockCollisionSweeper in entity nether portal positioning optimization and with TIS-Carpet",
+    "changelog_url": null,
+    "date_published": "2025-03-10T23:26:12.088687Z",
+    "downloads": 6704898,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
       {
-        "version_id": null,
-        "project_id": "P7dR8mSH",
-        "file_name": null,
-        "dependency_type": "required"
+        "id": "AJ4zlUvN",
+        "hashes": {
+          "sha1": "b7d77602807f2c7cd7132741244bf8c0b8dec6c1",
+          "sha512": "fd3215501ebe8f6590cdf1ccc58182873cad8d74ebc4b0b3a2f5724748b9cb04c2b967503c072311dfbca9ba856195dc4662f3395a071b294fa0acfdd2a86bf6"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/MM5BBBOK/lithium-fabric-0.15.0%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.15.0+mc1.21.1.jar",
+        "primary": true,
+        "size": 771768,
+        "file_type": null
       }
-    ]
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "3HMQZXbw",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.14.8 for Fabric",
+    "version_number": "mc1.21.1-0.14.8-fabric",
+    "changelog": "Lithium 0.14.8 for Minecraft 1.21.1 includes a new optimization, a few bugfixes and improves mod compatibility.\n\nMake sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium/blob/mc1.21.1-0.14.8/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Additions\n- Fast-path exit end portal search by counting nearby bedrock blocks. Reduces lag when placing the last end crystal when respawning the ender dragon by 97%.\n- Debug option for detecting invalid chunk data packets\n\n## Changes\n- Use worlds for thread tests instead of minecraft server to improve compatibility with the worldthreader mod\n\n## Fixes\n- Fix missing default return value in LithiumHashPalette copies\n- Fix incorrect handling of fire, lava and soul fire in experimental block touching optimization\n- Fix compatibility with Moonrise",
+    "changelog_url": null,
+    "date_published": "2025-02-20T00:24:04.842003Z",
+    "downloads": 444005,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "MuNiul4n",
+        "hashes": {
+          "sha512": "ed33ab7cc57950ec8b04b41f751720a3f903158093f1940b1a0bdb938b94bfaf398fc238014fee4523c9407fd3ff2377ee2e09cf7f7a349bfc8fc9e5a0b55a19",
+          "sha1": "8f5af483ccc65634133e94c72056a50a05a2f0c2"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/3HMQZXbw/lithium-fabric-0.14.8%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.14.8+mc1.21.1.jar",
+        "primary": true,
+        "size": 765859,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "NHA11tBg",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.14.7 for Fabric",
+    "version_number": "mc1.21.1-0.14.7-fabric",
+    "changelog": "Lithium 0.14.7 for Minecraft 1.21.1 fixes a few mod compatibility issues.\n\nMake sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium/blob/mc1.21.1-0.14.7/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Fixes\n- Fix crash with level wrappers from various mods\n- Fix crash with moonrise: Set require=0 for ChunkStatusTracker Inject",
+    "changelog_url": null,
+    "date_published": "2025-01-20T22:01:50.836299Z",
+    "downloads": 1402512,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "IlBuvYaN",
+        "hashes": {
+          "sha1": "a3eefce7079418f6cbe6d2764ed1f19849ae8cef",
+          "sha512": "fe4b0d451ee40db68986395f205e38b9c6c8ea1c01c67bb65c166adf91945266a374b449f85d41741730d5957bce17e2f396affc04f38f50a6d9562143565053"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/NHA11tBg/lithium-fabric-0.14.7%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.14.7+mc1.21.1.jar",
+        "primary": true,
+        "size": 749270,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "GtRRmh9W",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.14.6 for Fabric",
+    "version_number": "mc1.21.1-0.14.6-fabric",
+    "changelog": "Lithium 0.14.6 for Minecraft 1.21.1 disables the LithiumHashPalette optimization by default due to many users reporting issues.\n\nMake sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium/blob/mc1.21.1-0.14.6/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Additions\n- Automatic release publishing workflow\n\n## Changes\n- Disable `mixin.chunk.palette` (LithiumHashPalette) by default.",
+    "changelog_url": null,
+    "date_published": "2025-01-18T15:24:37.640891Z",
+    "downloads": 33901,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "39GNTXU7",
+        "hashes": {
+          "sha1": "db658b0bb3a4e6034440f4752f409181536ab3ad",
+          "sha512": "2c92621e49bd4dc64790409dfcd068b149b828122daca3729179bc4bb60daca432b3b8089fe052377bcc47ff12255fd4a837de9de9d05faf299a94ea8c72a5ff"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/GtRRmh9W/lithium-fabric-0.14.6%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.14.6+mc1.21.1.jar",
+        "primary": true,
+        "size": 749258,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "GGl8GkvX",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.14.5 for Fabric",
+    "version_number": "mc1.21.1-0.14.5-fabric",
+    "changelog": "Lithium 0.14.5 is a backport release for Minecraft 1.21.1 which fixes a server crash that can be caused deliberately by clients. Make sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium-fabric/blob/mc1.21.1-0.14.5/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Additions\n- Replace streams in Tempting Sensor\n- Add debug info for LithiumHashPalette\n\n## Changes\n- Use fast iterator in Brain outdated memory removal\n- Handle BlockTag changes for pathnode and block predicates\n\n## Fixes\n- Fix server crash that can be caused deliberatly by clients (Thanks to Drex for reporting)\n- Keep block entity tickers subscribed to world border changes on size-unrelated world border events\n- Fix game event dispatcher optimization by using chunk status tracking\n- Fix block entity initialization issues\n- Neoforge: Avoid initializing hopper's entity tracking during sleeping attempt\n- Neoforge: Update hopper optimization for new neoforge version",
+    "changelog_url": null,
+    "date_published": "2025-01-14T21:09:44.142065Z",
+    "downloads": 45614,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "CuATB5ZM",
+        "hashes": {
+          "sha512": "60997f16ad12bd602ce0bd1ae3ab5aa94f8f115b3b78c37d09e74e1a6af43b68de8d007b14d9b4b9d1996c892d783ade160b9ace80c30f6de81cde5ce2d177e1",
+          "sha1": "760f3b66804bad15402d02cf6dda434f2a78ca69"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/GGl8GkvX/lithium-fabric-0.14.5%2Bmc1.21.1.jar",
+        "filename": "lithium-fabric-0.14.5+mc1.21.1.jar",
+        "primary": true,
+        "size": 749270,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "9xfJi96s",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.14.3 for Fabric",
+    "version_number": "mc1.21.1-0.14.3-fabric",
+    "changelog": "Lithium 0.14.3 for Minecraft 1.21.1 improves mod compatibility. Make sure to take a backup of your world before using the mod and please report any bugs and mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium-fabric/blob/mc1.21.1-0.14.3/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Changes\n- Mod compatibility improvements, mostly on the neoforge platform",
+    "changelog_url": null,
+    "date_published": "2024-12-03T18:47:09.495159Z",
+    "downloads": 551334,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "YsJLmuj7",
+        "hashes": {
+          "sha1": "7e1aa211a2cbd9a6daa3091ffd3392758c9968be",
+          "sha512": "d46a47c4ac7372b5bae629e5910a20eff5b3064053d2441760aa8c42095d8173a85d6fbb624ffc10c68fc954579630c56f55dbcf392fb0253b5c3ffd096ee0a0"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/9xfJi96s/lithium-fabric-0.14.3-snapshot%2Bmc1.21.1-build.92.jar",
+        "filename": "lithium-fabric-0.14.3-snapshot+mc1.21.1-build.92.jar",
+        "primary": true,
+        "size": 744554,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "frXUdgvL",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.14.2 for Fabric",
+    "version_number": "mc1.21.1-0.14.2-fabric",
+    "changelog": "This is a backport of 0.14.2 for Minecraft 1.21.1. Make sure to take a backup of your world before using the mod and please report any mod compatibility issues at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium-fabric/blob/mc1.21.1-0.14.2/lithium-mixin-config.md) and how to disable it when encountering a problem.",
+    "changelog_url": null,
+    "date_published": "2024-11-16T22:48:41.210092Z",
+    "downloads": 292446,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "yke9AJcv",
+        "hashes": {
+          "sha512": "f47cc7ce94c9e63202c940e60a8b68d2c3cdcd3eafbc8625af2596eccc02ce3712794b812c24ca88eed1a3bde0129cb3c8a54236bc3a85547ffe70db7781f225",
+          "sha1": "5659949861163c0bd991059f77260829f436c031"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/frXUdgvL/lithium-fabric-0.14.2-snapshot%2Bmc1.21.1-build.90.jar",
+        "filename": "lithium-fabric-0.14.2-snapshot+mc1.21.1-build.90.jar",
+        "primary": true,
+        "size": 745651,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "2mbrKlX3",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.14.0 (Beta 1) for Fabric",
+    "version_number": "mc1.21.1-0.14.0-beta.1-fabric",
+    "changelog": "This is the first experimental release for Lithium 0.14.0 which supports both the fabric and neoforge modloader. Make sure to take a backup of your world before using this experimental version. In case you find any bugs, please report them at the [issue tracker](https://github.com/CaffeineMC/lithium-fabric/issues). You can check the [description of each optimization](https://github.com/CaffeineMC/lithium-fabric/blob/b39a6b67ba3af96dacca00660c7aa0d56ed7888f/lithium-mixin-config.md) and how to disable it when encountering a problem.\n\n## Changes\n\n- Adapt almost all optimizations and settings to work with neoforge\n",
+    "changelog_url": null,
+    "date_published": "2024-10-16T16:32:00.250850Z",
+    "downloads": 532583,
+    "version_type": "beta",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "HYG7KAei",
+        "hashes": {
+          "sha512": "e7ff451152caa994521736b3144e7b3edc98ffee0e04bb8ce4381eb777d64fac2d4e9edf6928303c2228c02c5d09147d369e71c12b45c39b324daf6916e6d0a1",
+          "sha1": "a1fc520d6458c3bb592ac46d3d62cf76392c3618"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/2mbrKlX3/lithium-fabric-0.14.0-snapshot%2Bmc1.21.1-build.88.jar",
+        "filename": "lithium-fabric-0.14.0-snapshot+mc1.21.1-build.88.jar",
+        "primary": true,
+        "size": 767496,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "9x0igjLz",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.13.1",
+    "version_number": "mc1.21.1-0.13.1",
+    "changelog": "Lithium 0.13.1 fixes one bug and a compatibility issue with carpet mod.\n\n## Fixes\n- fix: incompatability with fabric-carpet's scarpet explosion event. (#565) (Thanks to wendavid552)\n- fix: disable broken mixin.world.game_events.dispatch optimization by default",
+    "changelog_url": null,
+    "date_published": "2024-09-20T13:57:33.369924Z",
+    "downloads": 820673,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "1osaN21J",
+        "hashes": {
+          "sha1": "3dde05dcd5afab3ff6ca77c08f4c82d3a064f3c6",
+          "sha512": "4250a630d43492da35c4c197ae43082186938fdcb42bafcb6ccad925b79f583abdfdc17ce792c6c6686883f7f109219baecb4906a65d524026d4e288bfbaf146"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/9x0igjLz/lithium-fabric-mc1.21.1-0.13.1.jar",
+        "filename": "lithium-fabric-mc1.21.1-0.13.1.jar",
+        "primary": true,
+        "size": 752804,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "5szYtenV",
+    "project_id": "gvQqBUqZ",
+    "author_id": "uhPSqlnd",
+    "featured": false,
+    "name": "Lithium 0.13.0",
+    "version_number": "mc1.21.1-0.13.0",
+    "changelog": "Lithium 0.13.0 is the first release for 1.21.1. It fixes an issue and adds two new optimizations for goats and frogs.\n\n## Additions\n- new: LongJumpTask random weighted choice optimization\n- new: nonvanilla FrogAttackablesSensor optimization (enable with `mixin.minimal_nonvanilla=true` in the lithium.properties file. The frog target selection will deviate slightly from vanilla behavior.)\n\n## Fixes and Changes\n- fix: Hoppers not transferring to ChiseledBookshelfBlockEntity when multiple books are in a stack\n- change: replace hashmap in brain collection optimization\n- change: enable explosion exposure optimizations by default",
+    "changelog_url": null,
+    "date_published": "2024-08-11T17:21:32.983114Z",
+    "downloads": 735011,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "vi47i3lJ",
+        "hashes": {
+          "sha1": "25ab173627db3ed587380ddf635844d7a97ec6c4",
+          "sha512": "d4bd9a9cc37daad8828aa4fa9ca20e4f89d10e30cf6daf4546ef4cf4a684ba21ea0865a9c23cef9d1f4348e9ba4aca9aaca3db9f99534fc610fa78a5ca0bf151"
+        },
+        "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/5szYtenV/lithium-fabric-mc1.21.1-0.13.0.jar",
+        "filename": "lithium-fabric-mc1.21.1-0.13.0.jar",
+        "primary": true,
+        "size": 752726,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
   }
 ]

@@ -1,9 +1,7 @@
-# comment inside the file followed by a blank line
+# this is how a comment can be written inside this text file
 
-MOD1
-
-MOD2
-mod3
-
-mod4
-mod5
+sodium
+iris
+cloth-config
+modmenu
+lithium
